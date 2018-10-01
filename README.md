@@ -11,6 +11,8 @@ This PS Script will help you remove a Sitecore 9 instance from your Server
 2. Execute with admin privileges
 
 ## Example
+<pre>
+    <code>
 param(
     #Website related parameters
     [string]$InstanceId = 'you_sitecore_id',
@@ -26,3 +28,5 @@ param(
     #Solr related parameters
     [string]$SolrPath = 'C:\solr'
 )
+    </code>
+</pre>
