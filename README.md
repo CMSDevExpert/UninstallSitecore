@@ -11,22 +11,18 @@ This PS Script will help you remove a Sitecore 9 instance from your Server
 2. Execute with admin privileges
 
 ## Example
-<pre>
-    <code>
-param(
-    #Website related parameters
-    [string]$InstanceId = 'you_sitecore_id',
-    [bool]$DnsSuffixMode = $TRUE,
-    [string]$IISRootPath = 'C:\inetpub\wwwroot\',
-    #Database related parameters
-    [string]$SQLInstanceName = 'your_SQL_instance_name',
-    [string]$SQLUsername = 'SQLUsername',
-    [string]$SQLPassword = 'SQLPassword',
-    #Certificate related parameters
-    [string]$CertificateRootStore = 'Cert:\Localmachine\Root',
-    [string]$CertificatePersonalStore = 'Cert:\Localmachine\My',
-    #Solr related parameters
-    [string]$SolrPath = 'C:\solr'
-)
-    </code>
-</pre>
+<pre><code>param(
+  #Website related parameters
+  [string]$InstanceId = 'you_sitecore_id',
+  [bool]$DnsSuffixMode = $TRUE,
+  [string]$IISRootPath = 'C:\inetpub\wwwroot\',
+  #Database related parameters
+  [string]$SQLInstanceName = 'your_SQL_instance_name',
+  [string]$SQLUsername = 'SQLUsername',
+  [string]$SQLPassword = 'SQLPassword',
+  #Certificate related parameters
+  [string]$CertificateRootStore = 'Cert:\Localmachine\Root',
+  [string]$CertificatePersonalStore = 'Cert:\Localmachine\My',
+  #Solr related parameters
+  [string]$SolrPath = 'C:\solr'
+)</code></pre>
